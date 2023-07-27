@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 932">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff3b0;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke: #fff3b0;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-5 {
+        stroke-width: 15px;
+      }
+
+      .cls-4 {
+        fill: #84252a;
+        stroke-width: 10px;
+      }
+
+      .cls-6 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: Mitr-Regular, Mitr;
+        font-size: 194.97px;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.03em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="341.62" y1="1063.97" x2="738.38" y2="250.48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9e2a2b"/>
+      <stop offset="1" stop-color="#540b0e"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="m148.47,393.9l-.56-.56L498.03,43.23c23.47-23.47,61.66-23.47,85.13,0l350.11,350.11-.56.56h21.66l.56-.56L593.98,32.4c-29.44-29.44-77.35-29.44-106.79,0L126.26,393.34l.56.56h21.66Z"/>
+  <circle class="cls-4" cx="540" cy="48.09" r="40.65"/>
+  <rect class="cls-5" x="21" y="393.9" width="1038" height="526.66" rx="34.57" ry="34.57"/>
+  <rect class="cls-3" x="21" y="393.9" width="1038" height="526.66" rx="34.57" ry="34.57"/>
+  <text class="cls-2" transform="translate(171.02 632.99)"><tspan class="cls-6" x="0" y="0">C</tspan><tspan class="cls-9" x="123.22" y="0">O</tspan><tspan class="cls-7" x="264.96" y="0">MING</tspan><tspan x="97.39" y="184.98">S</tspan><tspan class="cls-8" x="212.22" y="184.98">O</tspan><tspan x="355.92" y="184.98">ON</tspan></text>
+</svg>
