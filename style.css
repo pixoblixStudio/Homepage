@@ -8,15 +8,15 @@ html {
   height: 100%; }
 
 body {
-  background-color: #335d68;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("IMG/pixoblix Studio - Pattern 3x3 (BRAND)-100.jpg") repeat center center;
-  background-size: cover; }
+  background-color: #282525;
+  background-image: url("IMG/pixoblix Studio - Pattern 4x4 (white).svg");
+  background-repeat: repeat; }
   body .box {
     width: 100%;
     height: 100%;
