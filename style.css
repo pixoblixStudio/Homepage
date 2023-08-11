@@ -50,42 +50,43 @@ body {
       background: #e19f3c;
       height: 125px;
       margin-top: 110px;
-      position: relative;
-            /*
-            &__loading {
-                position: absolute;
-                top: -10px;
-                left: calc(50% + 15px);
-                transform: translate(-50%, -50%);
-                z-index: 2;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                .loader {
-                    font-size: 8px;
-                    width: 1em;
-                    height: 1em;
-                    border-radius: 50%;
-                    position: relative;
-                    text-indent: -9999em;
-                    animation: mulShdSpin 1.1s infinite ease;
-                    transform: translateZ(0);
-                    margin: 30px;
-                  }
-                
-                    p {
-                        color: white;
-                    }
-            }
-            */ }
+      position: relative; }
       @media (min-width: 768px) {
         body .box__table_laptop {
           height: 180px; } }
       @media (min-width: 1024px) {
         body .box__table_laptop {
           margin-top: 150px; } }
+      body .box__table_laptop__loading {
+        position: absolute;
+        top: -10px;
+        left: calc(50% + 15px);
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        @media (min-width: 1024px) {
+          body .box__table_laptop__loading {
+            top: -5px;
+            left: calc(50% + 20px); } }
+        body .box__table_laptop__loading .loader {
+          font-size: 8px;
+          width: 1em;
+          height: 1em;
+          border-radius: 50%;
+          position: relative;
+          text-indent: -9999em;
+          transform: translateZ(0);
+          margin: 30px; }
+          @media (min-width: 1024px) {
+            body .box__table_laptop__loading .loader {
+              font-size: 12px;
+              width: 1.1em;
+              height: 1.1em; } }
+        body .box__table_laptop__loading p {
+          color: white; }
       body .box__table_laptop img {
         width: 100%;
         max-width: 430px;
@@ -291,9 +292,12 @@ p {
     transform: rotate(-5deg); }
   100% {
     transform: rotate(0deg); } }
-.box__coming_soon {
-  animation: intro-sign-swing 3s ease-in-out; }
+@media (min-width: 1024px) {
+  .box__coming_soon {
+    animation: intro-sign-swing 3s ease-in-out; }
 
+  .loader {
+    animation: mulShdSpin 1.1s infinite ease; } }
 @keyframes mulShdSpin {
   0%,
     100% {
