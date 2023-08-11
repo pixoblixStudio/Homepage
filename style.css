@@ -83,6 +83,9 @@ body {
       @media (min-width: 768px) {
         body .box__table_laptop {
           height: 180px; } }
+      @media (min-width: 1024px) {
+        body .box__table_laptop {
+          margin-top: 150px; } }
       body .box__table_laptop img {
         width: 100%;
         max-width: 430px;
