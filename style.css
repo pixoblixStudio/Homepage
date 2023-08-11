@@ -220,8 +220,13 @@ body {
   font-weight: normal;
   font-style: normal; }
 @font-face {
+  font-family: 'robotoregular';
+  src: url("FONTS/roboto-regular-webfont.woff2") format("woff2"), url("FONTS/roboto-regular-webfont.woff") format("woff"), url("FONTS/roboto-regular-webfont.ttf") format("truetype"), url("FONTS/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'robotolight';
-  src: url("FONTS/roboto-light-webfont.woff2") format("woff2"), url("FONTS/roboto-light-webfont.woff") format("woff"), url("FONTS/roboto-light-webfont.ttf") format("truetype"), url("FONTS/roboto-light-webfont.svg#robotoregular") format("svg");
+  src: url("FONTS/roboto-light-webfont.woff2") format("woff2"), url("FONTS/roboto-light-webfont.woff") format("woff"), url("FONTS/roboto-light-webfont.ttf") format("truetype"), url("FONTS/roboto-light-webfont.svg#robotolight") format("svg");
   font-weight: normal;
   font-style: normal; }
 h1 {
@@ -268,12 +273,12 @@ p {
   font-family: 'robotolight';
   font-size: 18px;
   line-height: 27px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.03em;
   color: #fff3b0; }
 
 .copyright {
-  font-family: 'robotolight';
+  font-family: 'robotoregular';
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
