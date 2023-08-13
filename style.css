@@ -131,7 +131,7 @@ body {
         body .box__icons__container__icon h3 {
           margin-left: 30px; }
         body .box__icons__container__icon img {
-          width: 105px;
+          width: 85px;
           fill: red; }
     body .box__table_lamp {
       width: 100%;
@@ -245,7 +245,7 @@ h1 {
       color: #fff3b0; } }
 
 h2 {
-  font-family: 'mitrmedium';
+  font-family: 'mitrlight';
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.72px;
@@ -253,7 +253,7 @@ h2 {
   color: #2B2B2B; }
   @media (min-width: 1024px) {
     h2 {
-      font-family: 'mitrmedium';
+      font-family: 'mitrlight';
       font-size: 48px;
       line-height: 52px;
       letter-spacing: 0.92px;
@@ -262,12 +262,21 @@ h2 {
 
 h3 {
   font-family: 'robotolight';
-  font-size: 36px;
-  line-height: 38px;
+  font-size: 30px;
+  line-height: 32px;
   font-weight: 400;
   letter-spacing: 0.03em;
   color: #fff3b0;
   color: #2B2B2B; }
+  @media (min-width: 1024px) {
+    h3 {
+      font-family: 'robotolight';
+      font-size: 36px;
+      line-height: 38px;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: #fff3b0;
+      color: #2B2B2B; } }
 
 p {
   font-family: 'robotolight';
