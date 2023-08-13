@@ -262,8 +262,8 @@ h2 {
 
 h3 {
   font-family: 'robotolight';
-  font-size: 30px;
-  line-height: 32px;
+  font-size: 22px;
+  line-height: 33px;
   font-weight: 400;
   letter-spacing: 0.03em;
   color: #fff3b0;
@@ -271,8 +271,8 @@ h3 {
   @media (min-width: 1024px) {
     h3 {
       font-family: 'robotolight';
-      font-size: 36px;
-      line-height: 38px;
+      font-size: 26px;
+      line-height: 28px;
       font-weight: 400;
       letter-spacing: 0.03em;
       color: #fff3b0;
